@@ -22,11 +22,11 @@ async function getScriptUrl() {
             "name": "YOUSHENGHUO",
             "id": 8
           };
-        await $.ql.edit(data);
+        const res = await $.ql.edit(data);
         $.notify(
             title,
             '同步账号信息',
-            `状态:已完成`,
+            JSON.stringify(res),
           );
         break
     }
