@@ -1,0 +1,20 @@
+{
+  "id": "huangzi959.app.sub",
+  "name": "huangzi959 应用订阅",
+  "author": "@huangzi959",
+  "icon": "https://portrait.gitee.com/uploads/avatars/user/19/59394_hzdx_1578915840.jpg",
+  "repo": "https://gitee.com/hzdx/javascript",
+  "apps": [
+     {
+      "id": "youshenghuo",
+      "name": "邮生活",
+      "keys": ["youshenghuo_authorization"],
+      "author": "@huangzi959",
+      "repo": "https://gitee.com/hzdx/javascript/tree/master",
+      "icons": [
+        "http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0693dadb8b8b94ec88de1a684b8206bc9d74c15ea",
+        "http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0693dadb8b8b94ec88de1a684b8206bc9d74c15ea"
+      ]
+    }
+  ]
+}
