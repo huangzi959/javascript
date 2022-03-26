@@ -22,7 +22,9 @@ async function getScriptUrl() {
             "name": "YOUSHENGHUO",
             "id": 1
           };
+      console.log(data);
         const res = await $.ql.edit(data);
+      console.log(res);
         $.notify(
             title,
             '同步账号信息',
