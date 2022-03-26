@@ -3,7 +3,7 @@ const title = '🐉 同步邮生活COOKIE通知提示';
 
 async function getScriptUrl() {
   const response = await $.http.get({
-    url: 'https://gitee.com/hzdx/javascript/raw/master/ql_api.js',
+    url: 'https://raw.githubusercontent.com/huangzi959/javascript/main/ql_api.js',
   });
   return response.body;
 }
