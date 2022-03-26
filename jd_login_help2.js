@@ -540,7 +540,7 @@ function createHTML() {
 <div id="cus-tip" style="display: none;"></div>
 <div class="tool_bars" id="tool-bars">
   <div id="boxjs" class="tool_bar">
-   <img  src="https://gitee.com/hzdx/javascript/raw/master/images/BOXJS.png" />
+   <img  src="https://github.com/huangzi959/javascript/raw/main/images/BOXJS.png" />
   </div>
 </div>
   `
