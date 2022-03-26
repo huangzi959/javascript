@@ -20,13 +20,13 @@ async function getScriptUrl() {
         const data = {
             "value": authorization,
             "name": "YOUSHENGHUO",
-            "id": 8
+            "id": 1
           };
         const res = await $.ql.edit(data);
         $.notify(
             title,
             '同步账号信息',
-            JSON.stringify(res),
+            '同步完成',
           );
         break
     }
