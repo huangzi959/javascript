@@ -1,5 +1,5 @@
 const $ = new API('ql', true);
-const title = '🐉 同步邮生活COOKIE通知提示';
+const title = '🐉 同步邮生活COOKIE';
 
 async function getScriptUrl() {
   const response = await $.http.get({
@@ -22,9 +22,8 @@ async function getScriptUrl() {
             "name": "YOUSHENGHUO",
             "id": 345
           };
-      console.log(data);
-        const res = await $.ql.edit(data);
-      console.log(res);
+
+        await $.ql.edit(data);
         $.notify(
             title,
             '同步账号信息',
