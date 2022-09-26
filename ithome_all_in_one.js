@@ -29,6 +29,8 @@ $.result = "";
   $.CryptoJS = $.isNode() ? require("crypto-js") : CryptoJS;
   await qiyu2345();
     await $.wait(parseInt(Math.random() * 2000 + 2000, 10))
+  await qiyuhao123();
+    await $.wait(parseInt(Math.random() * 2000 + 2000, 10))
   await qiyu();
    await $.wait(parseInt(Math.random() * 2000 + 2000, 10))
   await WeChatSign();
@@ -49,7 +51,7 @@ $.result = "";
 })()
   .catch((e) => $.logErr(e))
   .finally(() => $.done());
-  //奇鱼
+  //旗鱼浏览器网址奖励
   function qiyu2345(){
   return new Promise((resolve) => {
     const userHash = $.getdata($.userHash);
@@ -75,7 +77,7 @@ $.result = "";
     });
   });
 }
-//旗鱼浏览器
+//旗鱼浏览器在线奖励
 function qiyu(){
   return new Promise((resolve) => {
     const userHash = $.getdata($.userHash);
@@ -93,6 +95,31 @@ function qiyu(){
       try {
         const res = JSON.parse(data);
         console.log("旗鱼浏览器在线奖励:"+data+"\n\n")
+      } catch (e) {
+        $.logErr(e, resp);
+      } finally {
+        resolve();
+      }
+    });
+  });
+}
+//旗鱼hao123
+function qiyuhao123(){
+  return new Promise((resolve) => {
+    const userHash = $.getdata($.userHash);
+    const link =  `https://www.hao123.com/`;
+    const url = {
+      url: link,
+      headers: {
+        Host: "www.hao123.com",
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36 Qiyu/2.1.1.2"
+      },
+    };
+    $.get(url, (err, resp, data) => {
+      try {
+        const res = JSON.parse(data);
+        console.log("旗鱼hao123:"+data+"\n\n")
       } catch (e) {
         $.logErr(e, resp);
       } finally {
