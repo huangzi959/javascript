@@ -118,8 +118,7 @@ function qiyuhao123(){
     };
     $.get(url, (err, resp, data) => {
       try {
-        const res = JSON.parse(data);
-        console.log("旗鱼hao123:"+data+"\n\n")
+        console.log("旗鱼hao123:任务完成\n\n")
       } catch (e) {
         $.logErr(e, resp);
       } finally {
