@@ -181,7 +181,7 @@ const themes = {
 const presentSheet = async (options) => {
   options = {
     showCancel: true,
-    cancelText: 'Cancel',
+    cancelText: '关闭',
     ...options
   };
   const alert = new Alert();
@@ -192,7 +192,7 @@ const presentSheet = async (options) => {
     alert.message = options.message;
   }
   if (!options.options) {
-    throw new Error('The "options" property of the parameter cannot be empty')
+    throw new Error('参数的“options”属性不能为空')
   }
   for (const option of options.options) {
     alert.addAction(option.title);
@@ -321,14 +321,14 @@ const update = async () => {
   if (fm.isFileStoredIniCloud(module.filename)) {
     fm = FileManager.iCloud();
   }
-  const url = 'https://gitee.com/hzdx/javascript/raw/master/script_ress.js';
+  const url = 'https://raw.githubusercontent.com/huangzi959/javascript/main/script_ress.js';
   const request = new Request(url);
   try {
     const code = await request.loadString();
     fm.writeString(module.filename, code);
     const alert = new Alert();
-    alert.message = 'The code has been updated. If the script is open, close it for the change to take effect.';
-    alert.addAction('OK');
+    alert.message = '代码已更新。如果脚本处于打开状态，请将其关闭以使更改生效。';
+    alert.addAction('好的');
     alert.presentAlert();
   } catch (e) {
     console.error(e);
@@ -337,10 +337,10 @@ const update = async () => {
 
 if (config.runsInApp) {
   const res = await presentSheet({
-    message: 'Preview the widget or update the script. Update will override the whole script.',
+    message: '预览小部件或更新脚本。更新将覆盖整个脚本。',
     options: [
-      { title: 'Preview', value: 'Preview' },
-      { title: 'Update', value: 'Update' }
+      { title: '预览', value: 'Preview' },
+      { title: '更新', value: 'Update' }
     ]
   });
   const value = res.option?.value;
