@@ -1,11 +1,4 @@
 /**
- * Top trending searches on Weibo
- *
- * @version 1.0.3
- * @author Honye
- */
-
-/**
  * @param {number} [height] The screen height measured in pixels
  */
 const phoneSize = (height) => {
@@ -334,7 +327,7 @@ const update = async () => {
     console.error(e);
   }
 };
-
+let preview_url = '';
 if (config.runsInApp) {
   const res = await presentSheet({
     message: '预览小部件或更新脚本。更新将覆盖整个脚本。',
@@ -346,14 +339,15 @@ if (config.runsInApp) {
   const value = res.option?.value;
   switch (value) {
     case 'Preview':
+      preview_url = 'https://www.ithome.com/rss/';
       break
     case 'Update':
       update();
       break
   }
 }
-
-const url ='https://api.rss2json.com/v1/api.json?rss_url='+args.widgetParameter
+let parameter = preview_url?preview_url:args.widgetParameter;
+const url ='https://api.rss2json.com/v1/api.json?rss_url='+parameter
 const widget = await main(url);
 if (config.runsInApp) {
   widget.presentMedium();
