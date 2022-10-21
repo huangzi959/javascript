@@ -1,0 +1,31 @@
+{
+    "author": "Co0x00",
+    "scriptable": true,
+    "icon": "https://avatars.githubusercontent.com/u/9734895?s=40&v=4",
+    "repo": "https://github.com/huangzi959/Scriptable",
+    "apps": [
+        {
+            "version": "1.0",
+            "author": "Co0x00",
+            "description": "显示rss订阅",
+            "scriptURL": "https://raw.githubusercontent.com/huangzi959/javascript/main/script_ress.js",
+            "thumb": "https://avatars.githubusercontent.com/u/9734895?s=40&v=4",
+            "name": "rssReader",
+            "title": "rssReader",
+            "html": [
+              "<div>使用方法</div>",
+              "<br />",
+              "<div>用于显示网站Rss订阅资讯</div>",
+              "<br />",
+              "<br />",
+              "<div>使用方法</div>",
+              "<div>1.选择中形组件添加到桌面</div>",
+              "<div>2.Parameter 参数填入rss地址</div>",
+                ],
+            "images": [
+                "https://raw.githubusercontent.com/huangzi959/javascript/main/images/rss1.jpg",
+                "https://raw.githubusercontent.com/huangzi959/javascript/main/images/rss2.jpg"
+            ]
+        }
+    ]
+}
