@@ -22,7 +22,7 @@ async function getScriptUrl() {
         const data = {
             "value": authorization,
             "name": "YOUSHENGHUO",
-            "id": 345
+            "id": 607
           };
 
         const res = await $.ql.edit(data);
