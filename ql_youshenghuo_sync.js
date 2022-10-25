@@ -13,8 +13,9 @@ async function getScriptUrl() {
   await $.ql.login();
 
     const headers = $request.headers;
+  console.log(headers)
     for(let key  in headers){
-    if(key=='Authorization'){
+    if(key=='authorization'){
       const authorization = headers[key];
        
         const data = {
