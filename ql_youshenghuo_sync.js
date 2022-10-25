@@ -17,7 +17,8 @@ async function getScriptUrl() {
     for(let key  in headers){
     if(key=='authorization'){
       const authorization = headers[key];
-       
+       const select = await $.ql.select('YOUSHENGHUO');
+      console.log(select)
         const data = {
             "value": authorization,
             "name": "YOUSHENGHUO",
