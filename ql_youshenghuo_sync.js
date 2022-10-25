@@ -24,7 +24,8 @@ async function getScriptUrl() {
             "id": 345
           };
 
-        await $.ql.edit(data);
+        const res = await $.ql.edit(data);
+       console.log(res)
         $.notify(
             title,
             '同步账号信息',
