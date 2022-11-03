@@ -1,0 +1,11 @@
+#!name=脚本转换
+#!desc=脚本转换
+#!author=Mr.韦淋
+#!icon=https://avatars.githubusercontent.com/u/9734895?s=48&v=4
+#!homepage=https://github.com/huangzi959
+
+[Script]
+^https?:\/\/(raw|gist)\.githubusercontent.com/.*\.js$ url script-response-body https://raw.githubusercontent.com/Peng-YM/ScriptConverter/master/js-converter.js
+
+[mitm]
+hostname=raw.githubusercontent.com, gist.githubusercontent.com
