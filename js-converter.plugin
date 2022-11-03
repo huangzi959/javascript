@@ -5,7 +5,7 @@
 #!homepage=https://github.com/huangzi959
 
 [Script]
-^https?:\/\/(raw|gist)\.githubusercontent.com/.*\.js$ url script-response-body https://raw.githubusercontent.com/Peng-YM/ScriptConverter/master/js-converter.js
+http-response ^https?:\/\/(raw|gist)\.githubusercontent.com/.*\.js$ requires-body=1,script-path=https://raw.githubusercontent.com/Peng-YM/ScriptConverter/master/js-converter.js
 
 [mitm]
 hostname=raw.githubusercontent.com, gist.githubusercontent.com
