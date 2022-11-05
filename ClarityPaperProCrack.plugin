@@ -1,11 +1,8 @@
-#!name=克拉壁纸解锁订阅
-#!desc=克拉壁纸解锁订阅
-#!author=Mr.韦淋
-#!icon=https://avatars.githubusercontent.com/u/9734895?s=48&v=4
-#!homepage=https://github.com/huangzi959
-
+#!name=解锁 克拉壁纸
+#!desc=2022.11.2
+#需要取消跳过代理域名*.apple.com
 [Script]
-http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
+克拉壁纸 = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js,script-update-interval=0,max-size=0
 
-[mitm]
-hostname=buy.itunes.apple.com
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
