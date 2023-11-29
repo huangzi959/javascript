@@ -70,6 +70,17 @@
         "https://iph.href.lu/500x500?text=%E7%8E%96%E6%B4%B2%E9%81%93",
         "https://iph.href.lu/500x500?text=%E7%8E%96%E6%B4%B2%E9%81%93"
       ]
+    },
+    {
+      "id": "ThomasCook",
+      "name": "托迈酷客",
+      "keys": ["ThomasCook_Cookie"],
+      "author": "@huangzi959",
+      "repo": "https://github.com/huangzi959/javascript/",
+      "icons": [
+        "https://iph.href.lu/500x500?text=托迈酷客",
+        "https://iph.href.lu/500x500?text=托迈酷客"
+      ]
     }
   ]
 }
