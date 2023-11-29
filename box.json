@@ -81,6 +81,17 @@
         "https://iph.href.lu/500x500?text=托迈酷客",
         "https://iph.href.lu/500x500?text=托迈酷客"
       ]
+    },
+    {
+      "id": "TU_usersignKeyTU",
+      "name": "途虎养车",
+      "keys": ["TU_usersignKeyTU"],
+      "author": "@huangzi959",
+      "repo": "https://github.com/huangzi959/javascript/",
+      "icons": [
+        "https://iph.href.lu/500x500?text=途虎养车",
+        "https://iph.href.lu/500x500?text=途虎养车"
+      ]
     }
   ]
 }
