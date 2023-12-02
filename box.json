@@ -89,8 +89,30 @@
       "author": "@huangzi959",
       "repo": "https://github.com/huangzi959/javascript/",
       "icons": [
-        "https://iph.href.lu/500x500?text=途虎养车",
-        "https://iph.href.lu/500x500?text=途虎养车"
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg",
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0905.jpeg"
+      ]
+    },
+    {
+      "id": "jhsh_usersignKeyJHSH",
+      "name": "建行生活",
+      "keys": ["jhsh_usersignKeyJHSH"],
+      "author": "@huangzi959",
+      "repo": "https://github.com/huangzi959/javascript/",
+      "icons": [
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0910.jpeg",
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0910.jpeg"
+      ]
+    },
+    {
+      "id": "kfx_usersignKeyKFX",
+      "name": "卡夫享",
+      "keys": ["kfx_usersignKeyKFX"],
+      "author": "@huangzi959",
+      "repo": "https://github.com/huangzi959/javascript/",
+      "icons": [
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0909.jpeg",
+        "https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0909.jpeg"
       ]
     }
   ]
