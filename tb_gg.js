@@ -1,4 +1,5 @@
 let str = $response.body;
+console.log(str);
 const mp4UrlRegex = /"url":"(http[^"]+\.mp4)"/gm;
 const match = str.match(mp4UrlRegex);
 for (let i = match.length - 1; i >= 0; i--) {
