@@ -27,7 +27,7 @@ const method = "POST";
 const headers = {"Content-Type": "application/json; charset=utf-8"};
 const data = {"response": $response.body};
 console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-console.log(data);
+console.log(JSON.stringify(data));
 const myRequest = {
     url: url,
     method: method, // Optional, default GET.
