@@ -6,69 +6,14 @@
   "repo": "https://github.com/huangzi959/javascript/",
   "apps": [
     {
-      "id": "fuhuali",
-      "name": "富华里",
-      "keys": ["fuhuali_cookie"],
+      "id": "pocketBaase",
+      "name": "pocketBaase",
+      "keys": ["pocketBaase_token"],
       "author": "@huangzi959",
       "repo": "https://github.com/huangzi959/javascript/",
       "icons": [
-        "https://iph.href.lu/500x500?text=%E5%AF%8C%E5%8D%8E%E9%87%8C",
-        "https://iph.href.lu/500x500?text=%E5%AF%8C%E5%8D%8E%E9%87%8C"
-      ]
-    },
-    {
-      "id": "nanwan",
-      "name": "南湾华发商都",
-      "keys": ["nanwan_cookie"],
-      "author": "@huangzi959",
-      "repo": "https://github.com/huangzi959/javascript/",
-      "icons": [
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60",
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60"
-      ]
-    },
-    {
-      "id": "zhongshan",
-      "name": "中山华发商都",
-      "keys": ["zhongshan_cookie"],
-      "author": "@huangzi959",
-      "repo": "https://github.com/huangzi959/javascript/",
-      "icons": [
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60",
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60"
-      ]
-    },
-    {
-      "id": "jinwan",
-      "name": "金湾华发商都",
-      "keys": ["jinwan_cookie"],
-      "author": "@huangzi959",
-      "repo": "https://github.com/huangzi959/javascript/",
-      "icons": [
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60",
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60"
-      ]
-    },
-    {
-      "id": "zhongcheng",
-      "name": "华发中城商都",
-      "keys": ["zhongcheng_cookie"],
-      "author": "@huangzi959",
-      "repo": "https://github.com/huangzi959/javascript/",
-      "icons": [
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60",
-        "https://gips0.baidu.com/it/u=2812698718,272821255&fm=3012&app=3012&autime=1689739801&size=b60,60"
-      ]
-    },
-    {
-      "id": "jiuzhoudao",
-      "name": "玖洲道购物广场",
-      "keys": ["jiuzhoudao_cookie"],
-      "author": "@huangzi959",
-      "repo": "https://github.com/huangzi959/javascript/",
-      "icons": [
-        "https://iph.href.lu/500x500?text=%E7%8E%96%E6%B4%B2%E9%81%93",
-        "https://iph.href.lu/500x500?text=%E7%8E%96%E6%B4%B2%E9%81%93"
+        "http://120.236.242.37:9596/_/images/logo.svg",
+        "http://120.236.242.37:9596/_/images/logo.svg"
       ]
     },
     {
